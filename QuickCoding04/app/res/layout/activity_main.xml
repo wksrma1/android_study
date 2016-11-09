@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+    //지도를 보여줄 프레그먼트 정의
+    //프레그먼트에서 할당받은 영역에서 보여지는 것은 class 속성으로 지정된 클래스가 되는데 여기에서는 supportMapFragment라는 이름의 클래스가 사용됩니다.
+    
+</RelativeLayout>
